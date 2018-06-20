@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<material>
+	<technique name="Techniques/DiffNormalSpec.xml" />
+	<texture unit="diffuse" name="Textures/Soldier_head_diffuse.png" />
+	<texture unit="normal" name="Textures/Soldier_head_normal.png" />
+	<texture unit="specular" name="Textures/Soldier_head_specular.png" />
+	<parameter name="MatDiffColor" value="0.8 0.8 0.8 1" />
+	<parameter name="MatSpecColor" value="0.5 0.5 0.5 6.31179" />
+	<parameter name="MatEmissiveColor" value="0 0 0 1" />
+</material>

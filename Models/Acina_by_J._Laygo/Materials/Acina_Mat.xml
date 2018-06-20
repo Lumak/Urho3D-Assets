@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<material>
+	<technique name="Techniques/DiffNormalSpecEmissive.xml" />
+	<texture unit="diffuse" name="Textures/Pirate_Final_diffuse.png" />
+	<texture unit="normal" name="Textures/Pirate_Final_normal.png" />
+	<texture unit="specular" name="Textures/Pirate_Final_specular.png" />
+	<texture unit="emissive" name="Textures/Pirate_Final_glow.png" />
+	<parameter name="MatDiffColor" value="1 1 1 1" />
+	<parameter name="MatSpecColor" value="0.5 0.5 0.5 2" />
+	<parameter name="MatEmissiveColor" value="0.5 0.5 0.5 1" />
+</material>

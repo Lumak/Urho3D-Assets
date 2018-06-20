@@ -1,0 +1,3668 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="0" />
+	<attribute name="Next Replicated Node ID" value="262" />
+	<attribute name="Next Replicated Component ID" value="264" />
+	<attribute name="Next Local Node ID" value="16777218" />
+	<attribute name="Next Local Component ID" value="16777240" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<component type="PhysicsWorld" id="1" />
+	<component type="Octree" id="2" />
+	<component type="DebugRenderer" id="3" />
+	<node id="2">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Zone" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Zone" id="4">
+			<attribute name="Bounding Box Min" value="-1000 -1000 -1000" />
+			<attribute name="Bounding Box Max" value="1000 1000 1000" />
+			<attribute name="Ambient Color" value="0.1 0.1 0.1 1" />
+		</component>
+	</node>
+	<node id="3">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="GlobalLight" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="0.836516 0.482963 0.224144 -0.12941" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Light" id="5">
+			<attribute name="Light Type" value="Directional" />
+			<attribute name="Brightness Multiplier" value="2.5" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="4">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_05" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="6">
+			<attribute name="Model" value="Model;Models/sponzasponza_05.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="5">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_06" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="7">
+			<attribute name="Model" value="Model;Models/sponzasponza_06.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="6">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_07" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="8">
+			<attribute name="Model" value="Model;Models/sponzasponza_07.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="7">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_08" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="9">
+			<attribute name="Model" value="Model;Models/sponzasponza_08.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="8">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_09" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="10">
+			<attribute name="Model" value="Model;Models/sponzasponza_09.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="9">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_10" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="11">
+			<attribute name="Model" value="Model;Models/sponzasponza_10.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="10">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_11" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="12">
+			<attribute name="Model" value="Model;Models/sponzasponza_11.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="11">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_12" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="13">
+			<attribute name="Model" value="Model;Models/sponzasponza_12.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="12">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_13" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="14">
+			<attribute name="Model" value="Model;Models/sponzasponza_13.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="13">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_14" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="15">
+			<attribute name="Model" value="Model;Models/sponzasponza_14.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="14">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_15" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="16">
+			<attribute name="Model" value="Model;Models/sponzasponza_15.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="15">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_16" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="17">
+			<attribute name="Model" value="Model;Models/sponzasponza_16.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="16">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_17" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="18">
+			<attribute name="Model" value="Model;Models/sponzasponza_17.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="17">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_18" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="19">
+			<attribute name="Model" value="Model;Models/sponzasponza_18.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzafloor1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="18">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_19" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="20">
+			<attribute name="Model" value="Model;Models/sponzasponza_19.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="19">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_20" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="21">
+			<attribute name="Model" value="Model;Models/sponzasponza_20.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="20">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_21" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="22">
+			<attribute name="Model" value="Model;Models/sponzasponza_21.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="21">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_22" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="23">
+			<attribute name="Model" value="Model;Models/sponzasponza_22.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="22">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_23" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="24">
+			<attribute name="Model" value="Model;Models/sponzasponza_23.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="23">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_24" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="25">
+			<attribute name="Model" value="Model;Models/sponzasponza_24.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="24">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_25" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="26">
+			<attribute name="Model" value="Model;Models/sponzasponza_25.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="25">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_26" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="27">
+			<attribute name="Model" value="Model;Models/sponzasponza_26.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="26">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_27" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="28">
+			<attribute name="Model" value="Model;Models/sponzasponza_27.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="27">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_28" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="29">
+			<attribute name="Model" value="Model;Models/sponzasponza_28.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="28">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_29" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="30">
+			<attribute name="Model" value="Model;Models/sponzasponza_29.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="29">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_30" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="31">
+			<attribute name="Model" value="Model;Models/sponzasponza_30.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="30">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_31" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="32">
+			<attribute name="Model" value="Model;Models/sponzasponza_31.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="31">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_32" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="33">
+			<attribute name="Model" value="Model;Models/sponzasponza_32.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="32">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_33" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="34">
+			<attribute name="Model" value="Model;Models/sponzasponza_33.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="33">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_34" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="35">
+			<attribute name="Model" value="Model;Models/sponzasponza_34.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="34">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_35" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="36">
+			<attribute name="Model" value="Model;Models/sponzasponza_35.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="35">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_36" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="37">
+			<attribute name="Model" value="Model;Models/sponzasponza_36.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="36">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_37" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="38">
+			<attribute name="Model" value="Model;Models/sponzasponza_37.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="37">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_38" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="39">
+			<attribute name="Model" value="Model;Models/sponzasponza_38.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="38">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_39" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="40">
+			<attribute name="Model" value="Model;Models/sponzasponza_39.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="39">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_40" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="41">
+			<attribute name="Model" value="Model;Models/sponzasponza_40.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="40">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_41" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="42">
+			<attribute name="Model" value="Model;Models/sponzasponza_41.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="41">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_42" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="43">
+			<attribute name="Model" value="Model;Models/sponzasponza_42.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="42">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_43" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="44">
+			<attribute name="Model" value="Model;Models/sponzasponza_43.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="43">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_44" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="45">
+			<attribute name="Model" value="Model;Models/sponzasponza_44.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="44">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_45" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="46">
+			<attribute name="Model" value="Model;Models/sponzasponza_45.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="45">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_46" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="47">
+			<attribute name="Model" value="Model;Models/sponzasponza_46.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="46">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_47" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="48">
+			<attribute name="Model" value="Model;Models/sponzasponza_47.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="47">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_48" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="49">
+			<attribute name="Model" value="Model;Models/sponzasponza_48.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="48">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_49" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="50">
+			<attribute name="Model" value="Model;Models/sponzasponza_49.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="49">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_50" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="51">
+			<attribute name="Model" value="Model;Models/sponzasponza_50.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="50">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_51" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="52">
+			<attribute name="Model" value="Model;Models/sponzasponza_51.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="51">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_52" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="53">
+			<attribute name="Model" value="Model;Models/sponzasponza_52.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="52">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_53" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="54">
+			<attribute name="Model" value="Model;Models/sponzasponza_53.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="53">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_54" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="55">
+			<attribute name="Model" value="Model;Models/sponzasponza_54.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaceiling1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="54">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_55" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="56">
+			<attribute name="Model" value="Model;Models/sponzasponza_55.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="55">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_56" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="57">
+			<attribute name="Model" value="Model;Models/sponzasponza_56.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="56">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_57" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="58">
+			<attribute name="Model" value="Model;Models/sponzasponza_57.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="57">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_58" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="59">
+			<attribute name="Model" value="Model;Models/sponzasponza_58.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="58">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_59" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="60">
+			<attribute name="Model" value="Model;Models/sponzasponza_59.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="59">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_60" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="61">
+			<attribute name="Model" value="Model;Models/sponzasponza_60.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="60">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_61" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="62">
+			<attribute name="Model" value="Model;Models/sponzasponza_61.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="61">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_62" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="63">
+			<attribute name="Model" value="Model;Models/sponzasponza_62.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="62">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_63" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="64">
+			<attribute name="Model" value="Model;Models/sponzasponza_63.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="63">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_64" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="65">
+			<attribute name="Model" value="Model;Models/sponzasponza_64.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="64">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_65" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="66">
+			<attribute name="Model" value="Model;Models/sponzasponza_65.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="65">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_66" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="67">
+			<attribute name="Model" value="Model;Models/sponzasponza_66.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="66">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_67" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="68">
+			<attribute name="Model" value="Model;Models/sponzasponza_67.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="67">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_68" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="69">
+			<attribute name="Model" value="Model;Models/sponzasponza_68.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="68">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_69" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="70">
+			<attribute name="Model" value="Model;Models/sponzasponza_69.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="69">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_70" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="71">
+			<attribute name="Model" value="Model;Models/sponzasponza_70.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzadetails1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="70">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_71" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="72">
+			<attribute name="Model" value="Model;Models/sponzasponza_71.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzadetails1.xml;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="71">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_72" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="73">
+			<attribute name="Model" value="Model;Models/sponzasponza_72.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzadetails1.xml;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="72">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_73" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="74">
+			<attribute name="Model" value="Model;Models/sponzasponza_73.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzadetails1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="73">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_74" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="75">
+			<attribute name="Model" value="Model;Models/sponzasponza_74.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzadetails1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="74">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_75" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="76">
+			<attribute name="Model" value="Model;Models/sponzasponza_75.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="75">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_76" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="77">
+			<attribute name="Model" value="Model;Models/sponzasponza_76.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="76">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_77" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="78">
+			<attribute name="Model" value="Model;Models/sponzasponza_77.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="77">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_78" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="79">
+			<attribute name="Model" value="Model;Models/sponzasponza_78.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="78">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_79" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="80">
+			<attribute name="Model" value="Model;Models/sponzasponza_79.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="79">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_80" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="81">
+			<attribute name="Model" value="Model;Models/sponzasponza_80.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="80">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_81" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="82">
+			<attribute name="Model" value="Model;Models/sponzasponza_81.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="81">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_82" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="83">
+			<attribute name="Model" value="Model;Models/sponzasponza_82.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="82">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_83" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="84">
+			<attribute name="Model" value="Model;Models/sponzasponza_83.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="83">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_84" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="85">
+			<attribute name="Model" value="Model;Models/sponzasponza_84.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="84">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_85" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="86">
+			<attribute name="Model" value="Model;Models/sponzasponza_85.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="85">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_86" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="87">
+			<attribute name="Model" value="Model;Models/sponzasponza_86.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="86">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_87" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="88">
+			<attribute name="Model" value="Model;Models/sponzasponza_87.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="87">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_88" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="89">
+			<attribute name="Model" value="Model;Models/sponzasponza_88.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="88">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_89" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="90">
+			<attribute name="Model" value="Model;Models/sponzasponza_89.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="89">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_90" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="91">
+			<attribute name="Model" value="Model;Models/sponzasponza_90.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="90">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_91" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="92">
+			<attribute name="Model" value="Model;Models/sponzasponza_91.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="91">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_92" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="93">
+			<attribute name="Model" value="Model;Models/sponzasponza_92.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="92">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_93" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="94">
+			<attribute name="Model" value="Model;Models/sponzasponza_93.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="93">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_94" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="95">
+			<attribute name="Model" value="Model;Models/sponzasponza_94.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="94">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_95" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="96">
+			<attribute name="Model" value="Model;Models/sponzasponza_95.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="95">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_96" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="97">
+			<attribute name="Model" value="Model;Models/sponzasponza_96.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="96">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_97" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="98">
+			<attribute name="Model" value="Model;Models/sponzasponza_97.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="97">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_98" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="99">
+			<attribute name="Model" value="Model;Models/sponzasponza_98.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="98">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_99" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="100">
+			<attribute name="Model" value="Model;Models/sponzasponza_99.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="99">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_100" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="101">
+			<attribute name="Model" value="Model;Models/sponzasponza_100.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="100">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_101" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="102">
+			<attribute name="Model" value="Model;Models/sponzasponza_101.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="101">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_102" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="103">
+			<attribute name="Model" value="Model;Models/sponzasponza_102.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="102">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_103" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="104">
+			<attribute name="Model" value="Model;Models/sponzasponza_103.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="103">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_104" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="105">
+			<attribute name="Model" value="Model;Models/sponzasponza_104.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="104">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_105" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="106">
+			<attribute name="Model" value="Model;Models/sponzasponza_105.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="105">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_106" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="107">
+			<attribute name="Model" value="Model;Models/sponzasponza_106.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="106">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_107" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="108">
+			<attribute name="Model" value="Model;Models/sponzasponza_107.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="107">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_108" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="109">
+			<attribute name="Model" value="Model;Models/sponzasponza_108.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="108">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_109" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="110">
+			<attribute name="Model" value="Model;Models/sponzasponza_109.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="109">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_110" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="111">
+			<attribute name="Model" value="Model;Models/sponzasponza_110.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="110">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_111" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="112">
+			<attribute name="Model" value="Model;Models/sponzasponza_111.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="111">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_112" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="113">
+			<attribute name="Model" value="Model;Models/sponzasponza_112.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="112">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_113" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="114">
+			<attribute name="Model" value="Model;Models/sponzasponza_113.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="113">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_114" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="115">
+			<attribute name="Model" value="Model;Models/sponzasponza_114.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="114">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_115" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="116">
+			<attribute name="Model" value="Model;Models/sponzasponza_115.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_c1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="115">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_116" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="117">
+			<attribute name="Model" value="Model;Models/sponzasponza_116.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="116">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_117" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="118">
+			<attribute name="Model" value="Model;Models/sponzasponza_117.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzafloor1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="117">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_118" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="119">
+			<attribute name="Model" value="Model;Models/sponzasponza_118.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="118">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_119" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="120">
+			<attribute name="Model" value="Model;Models/sponzasponza_119.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="119">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_120" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="121">
+			<attribute name="Model" value="Model;Models/sponzasponza_120.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="120">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_121" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="122">
+			<attribute name="Model" value="Model;Models/sponzasponza_121.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_a1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="121">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_122" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="123">
+			<attribute name="Model" value="Model;Models/sponzasponza_122.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="122">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_123" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="124">
+			<attribute name="Model" value="Model;Models/sponzasponza_123.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="123">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_124" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="125">
+			<attribute name="Model" value="Model;Models/sponzasponza_124.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaarch1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="124">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_125" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="126">
+			<attribute name="Model" value="Model;Models/sponzasponza_125.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="125">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_126" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="127">
+			<attribute name="Model" value="Model;Models/sponzasponza_126.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="126">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_127" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="128">
+			<attribute name="Model" value="Model;Models/sponzasponza_127.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="127">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_128" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="129">
+			<attribute name="Model" value="Model;Models/sponzasponza_128.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="128">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_129" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="130">
+			<attribute name="Model" value="Model;Models/sponzasponza_129.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="129">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_130" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="131">
+			<attribute name="Model" value="Model;Models/sponzasponza_130.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="130">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_131" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="132">
+			<attribute name="Model" value="Model;Models/sponzasponza_131.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="131">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_132" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="133">
+			<attribute name="Model" value="Model;Models/sponzasponza_132.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="132">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_133" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="134">
+			<attribute name="Model" value="Model;Models/sponzasponza_133.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="133">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_134" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="135">
+			<attribute name="Model" value="Model;Models/sponzasponza_134.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="134">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_135" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="136">
+			<attribute name="Model" value="Model;Models/sponzasponza_135.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="135">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_136" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="137">
+			<attribute name="Model" value="Model;Models/sponzasponza_136.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="136">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_137" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="138">
+			<attribute name="Model" value="Model;Models/sponzasponza_137.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="137">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_138" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="139">
+			<attribute name="Model" value="Model;Models/sponzasponza_138.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="138">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_139" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="140">
+			<attribute name="Model" value="Model;Models/sponzasponza_139.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="139">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_140" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="141">
+			<attribute name="Model" value="Model;Models/sponzasponza_140.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="140">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_141" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="142">
+			<attribute name="Model" value="Model;Models/sponzasponza_141.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="141">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_142" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="143">
+			<attribute name="Model" value="Model;Models/sponzasponza_142.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="142">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_143" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="144">
+			<attribute name="Model" value="Model;Models/sponzasponza_143.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="143">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_144" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="145">
+			<attribute name="Model" value="Model;Models/sponzasponza_144.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="144">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_145" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="146">
+			<attribute name="Model" value="Model;Models/sponzasponza_145.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="145">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_146" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="147">
+			<attribute name="Model" value="Model;Models/sponzasponza_146.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="146">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_147" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="148">
+			<attribute name="Model" value="Model;Models/sponzasponza_147.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="147">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_148" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="149">
+			<attribute name="Model" value="Model;Models/sponzasponza_148.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="148">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_149" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="150">
+			<attribute name="Model" value="Model;Models/sponzasponza_149.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="149">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_150" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="151">
+			<attribute name="Model" value="Model;Models/sponzasponza_150.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="150">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_151" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="152">
+			<attribute name="Model" value="Model;Models/sponzasponza_151.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="151">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_152" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="153">
+			<attribute name="Model" value="Model;Models/sponzasponza_152.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="152">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_153" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="154">
+			<attribute name="Model" value="Model;Models/sponzasponza_153.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="153">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_154" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="155">
+			<attribute name="Model" value="Model;Models/sponzasponza_154.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="154">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_155" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="156">
+			<attribute name="Model" value="Model;Models/sponzasponza_155.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="155">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_156" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="157">
+			<attribute name="Model" value="Model;Models/sponzasponza_156.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="156">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_157" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="158">
+			<attribute name="Model" value="Model;Models/sponzasponza_157.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="157">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_158" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="159">
+			<attribute name="Model" value="Model;Models/sponzasponza_158.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="158">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_159" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="160">
+			<attribute name="Model" value="Model;Models/sponzasponza_159.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="159">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_160" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="161">
+			<attribute name="Model" value="Model;Models/sponzasponza_160.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="160">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_161" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="162">
+			<attribute name="Model" value="Model;Models/sponzasponza_161.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="161">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_162" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="163">
+			<attribute name="Model" value="Model;Models/sponzasponza_162.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="162">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_163" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="164">
+			<attribute name="Model" value="Model;Models/sponzasponza_163.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="163">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_164" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="165">
+			<attribute name="Model" value="Model;Models/sponzasponza_164.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="164">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_165" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="166">
+			<attribute name="Model" value="Model;Models/sponzasponza_165.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="165">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_166" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="167">
+			<attribute name="Model" value="Model;Models/sponzasponza_166.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="166">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_167" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="168">
+			<attribute name="Model" value="Model;Models/sponzasponza_167.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="167">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_168" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="169">
+			<attribute name="Model" value="Model;Models/sponzasponza_168.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="168">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_169" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="170">
+			<attribute name="Model" value="Model;Models/sponzasponza_169.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="169">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_170" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="171">
+			<attribute name="Model" value="Model;Models/sponzasponza_170.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="170">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_171" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="172">
+			<attribute name="Model" value="Model;Models/sponzasponza_171.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="171">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_172" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="173">
+			<attribute name="Model" value="Model;Models/sponzasponza_172.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="172">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_173" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="174">
+			<attribute name="Model" value="Model;Models/sponzasponza_173.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="173">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_174" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="175">
+			<attribute name="Model" value="Model;Models/sponzasponza_174.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="174">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_175" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="176">
+			<attribute name="Model" value="Model;Models/sponzasponza_175.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="175">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_176" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="177">
+			<attribute name="Model" value="Model;Models/sponzasponza_176.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="176">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_177" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="178">
+			<attribute name="Model" value="Model;Models/sponzasponza_177.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="177">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_178" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="179">
+			<attribute name="Model" value="Model;Models/sponzasponza_178.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="178">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_179" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="180">
+			<attribute name="Model" value="Model;Models/sponzasponza_179.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="179">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_180" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="181">
+			<attribute name="Model" value="Model;Models/sponzasponza_180.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="180">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_181" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="182">
+			<attribute name="Model" value="Model;Models/sponzasponza_181.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="181">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_182" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="183">
+			<attribute name="Model" value="Model;Models/sponzasponza_182.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="182">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_183" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="184">
+			<attribute name="Model" value="Model;Models/sponzasponza_183.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="183">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_184" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="185">
+			<attribute name="Model" value="Model;Models/sponzasponza_184.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="184">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_185" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="186">
+			<attribute name="Model" value="Model;Models/sponzasponza_185.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="185">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_186" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="187">
+			<attribute name="Model" value="Model;Models/sponzasponza_186.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="186">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_187" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="188">
+			<attribute name="Model" value="Model;Models/sponzasponza_187.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="187">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_188" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="189">
+			<attribute name="Model" value="Model;Models/sponzasponza_188.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="188">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_189" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="190">
+			<attribute name="Model" value="Model;Models/sponzasponza_189.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="189">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_190" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="191">
+			<attribute name="Model" value="Model;Models/sponzasponza_190.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="190">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_191" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="192">
+			<attribute name="Model" value="Model;Models/sponzasponza_191.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="191">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_192" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="193">
+			<attribute name="Model" value="Model;Models/sponzasponza_192.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="192">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_193" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="194">
+			<attribute name="Model" value="Model;Models/sponzasponza_193.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="193">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_194" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="195">
+			<attribute name="Model" value="Model;Models/sponzasponza_194.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="194">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_195" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="196">
+			<attribute name="Model" value="Model;Models/sponzasponza_195.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="195">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_196" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="197">
+			<attribute name="Model" value="Model;Models/sponzasponza_196.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="196">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_197" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="198">
+			<attribute name="Model" value="Model;Models/sponzasponza_197.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="197">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_198" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="199">
+			<attribute name="Model" value="Model;Models/sponzasponza_198.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="198">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_199" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="200">
+			<attribute name="Model" value="Model;Models/sponzasponza_199.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="199">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_200" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="201">
+			<attribute name="Model" value="Model;Models/sponzasponza_200.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="200">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_201" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="202">
+			<attribute name="Model" value="Model;Models/sponzasponza_201.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="201">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_202" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="203">
+			<attribute name="Model" value="Model;Models/sponzasponza_202.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="202">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_203" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="204">
+			<attribute name="Model" value="Model;Models/sponzasponza_203.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="203">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_204" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="205">
+			<attribute name="Model" value="Model;Models/sponzasponza_204.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="204">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_205" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="206">
+			<attribute name="Model" value="Model;Models/sponzasponza_205.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="205">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_206" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="207">
+			<attribute name="Model" value="Model;Models/sponzasponza_206.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="206">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_207" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="208">
+			<attribute name="Model" value="Model;Models/sponzasponza_207.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="207">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_208" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="209">
+			<attribute name="Model" value="Model;Models/sponzasponza_208.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="208">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_209" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="210">
+			<attribute name="Model" value="Model;Models/sponzasponza_209.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="209">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_210" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="211">
+			<attribute name="Model" value="Model;Models/sponzasponza_210.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="210">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_211" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="212">
+			<attribute name="Model" value="Model;Models/sponzasponza_211.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="211">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_212" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="213">
+			<attribute name="Model" value="Model;Models/sponzasponza_212.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="212">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_213" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="214">
+			<attribute name="Model" value="Model;Models/sponzasponza_213.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="213">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_214" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="215">
+			<attribute name="Model" value="Model;Models/sponzasponza_214.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="214">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_215" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="216">
+			<attribute name="Model" value="Model;Models/sponzasponza_215.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="215">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_216" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="217">
+			<attribute name="Model" value="Model;Models/sponzasponza_216.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="216">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_217" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="218">
+			<attribute name="Model" value="Model;Models/sponzasponza_217.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="217">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_218" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="219">
+			<attribute name="Model" value="Model;Models/sponzasponza_218.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="218">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_219" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="220">
+			<attribute name="Model" value="Model;Models/sponzasponza_219.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="219">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_220" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="221">
+			<attribute name="Model" value="Model;Models/sponzasponza_220.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="220">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_221" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="222">
+			<attribute name="Model" value="Model;Models/sponzasponza_221.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="221">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_222" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="223">
+			<attribute name="Model" value="Model;Models/sponzasponza_222.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="222">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_223" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="224">
+			<attribute name="Model" value="Model;Models/sponzasponza_223.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="223">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_224" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="225">
+			<attribute name="Model" value="Model;Models/sponzasponza_224.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="224">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_225" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="226">
+			<attribute name="Model" value="Model;Models/sponzasponza_225.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="225">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_226" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="227">
+			<attribute name="Model" value="Model;Models/sponzasponza_226.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="226">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_227" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="228">
+			<attribute name="Model" value="Model;Models/sponzasponza_227.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="227">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_228" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="229">
+			<attribute name="Model" value="Model;Models/sponzasponza_228.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="228">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_229" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="230">
+			<attribute name="Model" value="Model;Models/sponzasponza_229.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="229">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_230" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="231">
+			<attribute name="Model" value="Model;Models/sponzasponza_230.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="230">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_231" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="232">
+			<attribute name="Model" value="Model;Models/sponzasponza_231.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="231">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_232" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="233">
+			<attribute name="Model" value="Model;Models/sponzasponza_232.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="232">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_233" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="234">
+			<attribute name="Model" value="Model;Models/sponzasponza_233.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="233">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_234" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="235">
+			<attribute name="Model" value="Model;Models/sponzasponza_234.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="234">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_235" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="236">
+			<attribute name="Model" value="Model;Models/sponzasponza_235.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="235">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_236" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="237">
+			<attribute name="Model" value="Model;Models/sponzasponza_236.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="236">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_237" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="238">
+			<attribute name="Model" value="Model;Models/sponzasponza_237.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="237">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_238" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="239">
+			<attribute name="Model" value="Model;Models/sponzasponza_238.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="238">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_239" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="240">
+			<attribute name="Model" value="Model;Models/sponzasponza_239.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="239">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_240" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="241">
+			<attribute name="Model" value="Model;Models/sponzasponza_240.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="240">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_241" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="242">
+			<attribute name="Model" value="Model;Models/sponzasponza_241.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="241">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_242" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="243">
+			<attribute name="Model" value="Model;Models/sponzasponza_242.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="242">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_243" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="244">
+			<attribute name="Model" value="Model;Models/sponzasponza_243.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="243">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_244" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="245">
+			<attribute name="Model" value="Model;Models/sponzasponza_244.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="244">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_245" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="246">
+			<attribute name="Model" value="Model;Models/sponzasponza_245.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="245">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_246" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="247">
+			<attribute name="Model" value="Model;Models/sponzasponza_246.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="246">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_247" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="248">
+			<attribute name="Model" value="Model;Models/sponzasponza_247.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+		</component>
+	</node>
+	<node id="247">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_248" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="249">
+			<attribute name="Model" value="Model;Models/sponzasponza_248.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="248">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_249" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="250">
+			<attribute name="Model" value="Model;Models/sponzasponza_249.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="249">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_250" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="251">
+			<attribute name="Model" value="Model;Models/sponzasponza_250.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="250">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_251" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="252">
+			<attribute name="Model" value="Model;Models/sponzasponza_251.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="251">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_252" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="253">
+			<attribute name="Model" value="Model;Models/sponzasponza_252.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="252">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_253" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="254">
+			<attribute name="Model" value="Model;Models/sponzasponza_253.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="253">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_254" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="255">
+			<attribute name="Model" value="Model;Models/sponzasponza_254.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="254">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_255" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="256">
+			<attribute name="Model" value="Model;Models/sponzasponza_255.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="255">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_256" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="257">
+			<attribute name="Model" value="Model;Models/sponzasponza_256.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzacolumn_b1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="256">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_257" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="258">
+			<attribute name="Model" value="Model;Models/sponzasponza_257.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaMaterial__300.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="257">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_258" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="259">
+			<attribute name="Model" value="Model;Models/sponzasponza_258.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="258">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_379" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="260">
+			<attribute name="Model" value="Model;Models/sponzasponza_379.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="259">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_380" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="261">
+			<attribute name="Model" value="Model;Models/sponzasponza_380.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaroof1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="260">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_381" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="262">
+			<attribute name="Model" value="Model;Models/sponzasponza_381.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzaroof1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="261">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="sponza:sponza_382" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.01 0.01 0.01" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="263">
+			<attribute name="Model" value="Model;Models/sponzasponza_382.mdl" />
+			<attribute name="Material" value="Material;Materials/sponzabricks1.xml" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+    <node id="262">
+        <attribute name="Is Enabled" value="true" />
+        <attribute name="Name" value="Sky" />
+        <attribute name="Position" value="0 0 0" />
+        <attribute name="Rotation" value="1 0 0 0" />
+        <attribute name="Scale" value="500 500 500" />
+        <attribute name="Variables" />
+        <component type="Skybox" id="264">
+            <attribute name="Model" value="Model;Models/Box.mdl" />
+            <attribute name="Material" value="Material;Materials/Skybox.xml" />
+        </component>
+    </node>
+</scene>

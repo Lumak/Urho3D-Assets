@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<material>
+	<technique name="Techniques/Diff.xml" />
+	<texture unit="diffuse" name="Textures/sponza_ceiling_a_diff.tga" />
+	<parameter name="MatDiffColor" value="0.8 0.8 0.8 1" />
+	<parameter name="MatSpecColor" value="0 0 0 12" />
+	<parameter name="MatEmissiveColor" value="0 0 0 1" />
+    <cull value="none" />
+    <shadowcull value="cw" />
+</material>
